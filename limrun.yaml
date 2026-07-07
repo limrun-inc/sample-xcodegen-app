@@ -1,0 +1,4 @@
+project: ios/SampleApp.xcodeproj
+scheme: SampleApp
+prepare:
+  - make project
