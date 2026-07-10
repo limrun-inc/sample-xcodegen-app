@@ -1,5 +1,4 @@
 import SwiftUI
-import GeneratedKit
 
 @main
 struct SampleApp: App {
@@ -8,7 +7,7 @@ struct SampleApp: App {
             VStack(spacing: 12) {
                 Text("XcodeGen Sample")
                     .font(.title)
-                Text(Generated.buildInfo)
+                Text("Generated with XcodeGen, built on Limrun")
                     .font(.footnote)
             }
         }

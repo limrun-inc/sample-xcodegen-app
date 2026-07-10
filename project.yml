@@ -3,17 +3,12 @@ options:
   bundleIdPrefix: com.limrun.sample
   deploymentTarget:
     iOS: "16.0"
-packages:
-  GeneratedKit:
-    path: GeneratedKit
 targets:
   SampleApp:
     type: application
     platform: iOS
     sources:
       - Sources
-    dependencies:
-      - package: GeneratedKit
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES

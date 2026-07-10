@@ -1,5 +1,3 @@
 *.xcodeproj
-ios/GeneratedKit/
 DerivedData/
 .build/
-node_modules/
